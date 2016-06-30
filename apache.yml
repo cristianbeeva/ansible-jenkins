@@ -1,5 +1,4 @@
 - name: apache
-  hosts: compute
   roles:
     - "olibob.apache"
   tasks:
