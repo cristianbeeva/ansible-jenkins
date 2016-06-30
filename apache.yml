@@ -1,5 +1,5 @@
 - name: apache
-  hosts:
+  hosts: openstack
   roles:
     - "olibob.apache"
   tasks:
