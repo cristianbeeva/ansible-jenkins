@@ -1,0 +1,7 @@
+- name: apache
+  hosts: neutron
+  roles:
+    - "olibob.apache"
+  tasks:
+    - shell: echo "yija"
+  
