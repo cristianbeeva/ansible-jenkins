@@ -1,7 +1,7 @@
-name: apache
-hosts: openstack
-roles:
-  - "olibob.apache"
-tasks:
-  - shell: echo "yija"
+- name: apache
+  hosts: openstack
+  roles:
+    - "olibob.apache"
+  tasks:
+    - shell: echo "yija"
   
