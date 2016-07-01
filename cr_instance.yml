@@ -1,5 +1,6 @@
 - name: lanzar instancia
   hosts: openstack
+  gather_facts: false
   tasks: 
   - name: launch instance
     nova_compute:  
