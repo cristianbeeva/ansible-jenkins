@@ -1,5 +1,3 @@
-from novaclient import client
-
 - name: lanzar instancia
   hosts: openstack
   tasks: 
