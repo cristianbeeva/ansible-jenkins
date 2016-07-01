@@ -8,6 +8,6 @@
      login_password: 12345
      login_tenant_name: admin
      name: ansible
-     auth_url: http://15.17.170.178:35357/v2.0/
+     auth_url: http://15.17.170.178:5000/v2.0
      image_id: c5eec6e6-ce99-4d89-83fa-4cdde70c52db
 
