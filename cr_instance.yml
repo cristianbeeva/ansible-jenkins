@@ -15,4 +15,5 @@
         image: c5eec6e6-ce99-4d89-83fa-4cdde70c52db
         security_groups: default
         auto_ip: yes
+        flavor: 1
 
