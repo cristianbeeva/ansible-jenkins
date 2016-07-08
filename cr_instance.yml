@@ -3,12 +3,16 @@
   gather_facts: false
   tasks: 
   - name: launch instance
-    nova_compute:  
-     state: present
-     login_username: admin
-     login_password: 12345
-     login_tenant_name: admin
-     name: ansible
-     auth_url: http://15.17.170.178:5000/v2.0
-     image_id: c5eec6e6-ce99-4d89-83fa-4cdde70c52db
+  
+    os_server:
+        state: present
+        auth:
+          auth_url: http://15.17.170.178:5000/v2.0
+          username: admin
+          password: 12345
+          project_name: admin
+        name: vm1
+        image: c5eec6e6-ce99-4d89-83fa-4cdde70c52db
+        security_groups: default
+        auto_ip: yes
 
