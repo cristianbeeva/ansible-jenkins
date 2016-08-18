@@ -1,13 +1,12 @@
 - name: lanzar instancia
   hosts: openstack
-  gather_facts: false
   tasks: 
   - name: launch instance
   
     os_server:
         state: present
         auth:
-          auth_url: http://15.17.170.178:5000/v2.0
+          auth_url: http://15.17.170.178:35357/v2.0
           username: admin
           password: 12345
           project_name: admin
